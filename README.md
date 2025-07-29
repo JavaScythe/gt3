@@ -4,6 +4,12 @@ High quality DIY 22-input paddle shifted GT-3 simracing wheel
 
 Why: minimal GT3 format wheel for Logitech G PRO ecosystem, without the squeaking plastic covers and commercial cost cutting.
 
+<img width="1069" height="1029" alt="image" src="https://github.com/user-attachments/assets/4dcf5edc-2c95-44e1-bf1e-bd4596cd17a6" />
+<img width="1142" height="1073" alt="image" src="https://github.com/user-attachments/assets/23e757e7-a58c-4336-ae68-55d3072f1821" />
+<img width="1184" height="962" alt="image" src="https://github.com/user-attachments/assets/c2a44daa-a47a-4fe1-b7c5-28124a9e0de1" />
+<img width="2220" height="665" alt="image" src="https://github.com/user-attachments/assets/5d28f191-c69e-4bcc-9f07-ceecfa159563" />
+
+
 
 ### BOM
 |name                         |seller    |cost  |shipping|notes                           |links                                                                                                                                                              |
