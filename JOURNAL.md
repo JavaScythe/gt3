@@ -1,3 +1,5 @@
+Total time: 67.5 hours
+
 ### 6-9-25: Back
 After a one day break from this YSWS, the work continues.
 This time I'm making a GT3-esque sim racing wheel. I've already determined that it will aluminium plate as the main connecting piece.
@@ -55,6 +57,8 @@ Additonally, while I know of wheels that have built in haptic feedback and would
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b6190f2b-f85e-4ac5-969f-5640a2da96fb" />
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/e568bf5a-f7de-4b5c-9d9a-eee8a12c6f76" />
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/73a5142e-1c06-41b0-ab0a-9521f9623f26" />
+
+4 hours
 
 ### 7-8-25: Schematic
 (EDIT: I selected a 6 position rotary switch, forgot to put) 
@@ -217,11 +221,13 @@ Looking at the doubtlessly substaintial CNC cost, paired with the expensive (but
 
 Since there are limited small packages, I am going to go without PCBA and opt instead to hotplate this stuff on. (with equipment purchased by hackclub... thanks guys 😅)
 
+1 hour
 
 ### 7-29-25: Return
 
 I came back
 
 Prepare BOM for CNC, PCB, parts, buttons, and adapater.
+Assembled readme, uploaded CAD and PCB, generate BOM.
 
-
+3 hours
