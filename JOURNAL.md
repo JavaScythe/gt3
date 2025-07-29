@@ -202,3 +202,26 @@ Positioned the things in the assembly, the shifter was completely impossible to 
 
 <img width="1552" height="873" alt="image" src="https://github.com/user-attachments/assets/0f4f29e3-0203-4e36-90ab-281c8041a1c4" />
 <img width="1564" height="906" alt="image" src="https://github.com/user-attachments/assets/1a044558-7000-4030-a385-d04d9c10a199" />
+
+Here are some completed assembly photos.
+
+<img width="1108" height="1024" alt="image" src="https://github.com/user-attachments/assets/d27f2dcf-6455-4e97-82c6-abc20a692051" />
+<img width="1292" height="1091" alt="image" src="https://github.com/user-attachments/assets/7b1e9318-486d-47cc-82b9-05e9d19cfc39" />
+<img width="1142" height="1073" alt="image" src="https://github.com/user-attachments/assets/b0d74d3a-9063-4b0d-a35d-2a8935366a4b" />
+<img width="1069" height="1029" alt="image" src="https://github.com/user-attachments/assets/aecf399d-bbba-4645-9009-d27d231d1f30" />
+
+3 Hours
+
+### 7-19-25: Submission preparation
+Looking at the doubtlessly substaintial CNC cost, paired with the expensive (but unfortunately required) adapter, the budget for PCB/A is looking grim.
+
+Since there are limited small packages, I am going to go without PCBA and opt instead to hotplate this stuff on. (with equipment purchased by hackclub... thanks guys 😅)
+
+
+### 7-29-25: Return
+
+I came back
+
+Prepare BOM for CNC, PCB, parts, buttons, and adapater.
+
+
