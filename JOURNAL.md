@@ -115,3 +115,90 @@ These were added, to the schematic without problem, but stuffing them on the boa
 <img width="1558" height="640" alt="image" src="https://github.com/user-attachments/assets/f73157ed-458e-4aeb-8f03-87fd8c472151" />
 
 4 hours
+
+### 7-13-25: Plate shape and pcb placement
+After working hard from reference images and looking at my very own two hands, I made a rough layout of the holes for my fingers and for the QR connection. This gave me an approximate spacing to test the pcb outline on. As it turns out, I should have done this first. While the board avoids the QR completely, the two side pieces extend too far down and would leave little to no room to place the paddle shifters ideally. After some grumbling and retrospective regret, I set out again to move the longest side to flatten it. Addtionally, at this point I realized how bad the USB data lines were but meh I'll fix that tommorow.
+
+Here is the flatter PCB
+
+<img width="2220" height="665" alt="image" src="https://github.com/user-attachments/assets/652b95a0-e95f-44a4-b76b-4c77eadf9509" />
+
+3.5 hours
+
+### 7-14-25: Plate shape and handle considerations
+Honing my freecad skills through painful trial and error using the curve tool, I took my initial measurements from the day before and the outline of the GT Neo, I made half of the wheel (to be mirrored). Some considerations:
+
+- Wide(r) outer grip surface: Thing that plastic grip will mount on made thicker. I can reasonably make the 3dprinted grip thin in some places so a wider plate area is ok. This is good for three reasons: Can put more mounting holes with less cost on wheel structure integrity (FEM analysis incoming) and more surface area for potential glue/wrap if needed, and reduced ability for the grip to turn on the mounting axis.
+- Higher top area: Best mounting for LEDS and PCB. The shaft part doesnt matter at this point it's still the paddle shifters that get in the way.
+- Multiple grip mount bolt holes. Enabled by the first contention in this list, I really hope to eliminate that dreaded creak.
+- 2x Rotary placement. While the rotaries have threads, I will mount them in smooth hole with a nut on top. Creating those threads in CNC is impossible and I don't know if they'll tap the hole without addtional cost.
+- 1x Rotary switch. This one's position is still in works. I'd like to be able to put some labels or at least some colors next to it to the positions
+- 10x buttons. Again, not threaded hole. nut mounted. I am worried about the two being in the way of the paddle shifter but I might move them once I see it in final assembly
+- Width: I decided early on to make it the same radius as my existing wheel. 300mm. Just what I'm used to in terms of feel and force.
+
+6 hours
+
+### 7-15-25: Grip
+After messing the placement of rotaries for a while I just left them. Now I began work on the grip. Not terrible complex, just take parallel of plate edges, expand a bit, then round off the top to make it smooth. Now i just placed some mounting screw in (2 part, one for head and one for actual thread, to make it smooth, then on the other side of course the hex bolt). That's all there is to it for now in terms of choices, techincal implementation was very different.
+
+So I tried to "round off" said shape in freecad and this proved to be a technical challenge that consumed far more time that it should have. However, the end result is there and I certainly learned something. (Fusion next time)
+
+So far from what I've heard and felt raw/sanded PLA should be fine for grip long term, we'll see. I can always go back and unbolt and wrap
+
+<img width="718" height="958" alt="image" src="https://github.com/user-attachments/assets/f22efd01-9f40-4ad5-9431-413321f8d58d" />
+<img width="602" height="976" alt="image" src="https://github.com/user-attachments/assets/d4b69606-300e-476d-a724-d91251a07971" />
+<img width="1101" height="593" alt="image" src="https://github.com/user-attachments/assets/e0573dbf-cacd-4ede-8ef8-d5fea9c413de" />
+<img width="1131" height="581" alt="image" src="https://github.com/user-attachments/assets/8f7d54b5-ce95-4708-8c6e-68bf0ca230ff" />
+
+4 hours
+
+### 7-16-25
+Now it's on to one of the final pieces of the design: the shifters. I started with some research on existing paddle shifter modules as well as some DIY ones.
+
+All of them were magnetic, but what interested me most was the adjustment in some. If the piece is already made why not make a slot and have a screw tighten down where it should be? I want to include this in my design. 
+
+The DIY ones I saw were plastic but I know this will not cut it. High force magnets with many many cycles, and without bearings is positively a disaster. Simply put, they are entry level, which this wheel is not. A CNCd set would perform much better at minimal extra cost. 
+
+Regardless of this though, the design remains more or less the same. The adjustment doesn't add extra pieces just a differnt mounting onto the body. Speaking of which, let me outline the 3 pieces that make this thing:
+
+- 1: Body. This screws into the wheel (bolt whatever). Large U-shape. Has holes for axle, and a groove? for adjustable mounting of the 2nd part
+<img width="1380" height="1111" alt="image" src="https://github.com/user-attachments/assets/d0c236b4-4db9-4e00-925c-40ba1a784b4f" />
+<img width="1138" height="932" alt="image" src="https://github.com/user-attachments/assets/f80bc19d-8d36-4d7f-865b-61fa4a9e9777" />
+- 2: Arm base: This holds the magnet and limits the travel of the actual arm. angle adjustable.
+<img width="1065" height="919" alt="image" src="https://github.com/user-attachments/assets/e78315cb-c33d-4e5a-a902-86f2cc9e2b27" />
+<img width="1236" height="668" alt="image" src="https://github.com/user-attachments/assets/48eaa1b8-7640-48fc-9a13-6c582abe3497" />
+- 3: Arm: This is the actual piece that moves. Magnet, hits spst switch on low, has holes on the end for mounting the actual paddle.
+<img width="1408" height="679" alt="image" src="https://github.com/user-attachments/assets/da6ed2ad-438d-4240-85de-9122c196a037" />
+<img width="1364" height="1084" alt="image" src="https://github.com/user-attachments/assets/4cfb636b-e1b3-403f-ac66-0e9f1f0570cf" />
+
+Here is the total thing assembled, with the switch I plan on using (disclaimer, i obviously did not make the model)
+
+<img width="1468" height="957" alt="image" src="https://github.com/user-attachments/assets/1bc31ec0-a9ba-4361-8031-5e231b04e368" />
+<img width="1017" height="850" alt="image" src="https://github.com/user-attachments/assets/6fa8e457-b136-4d6f-84cf-57c0568a13ca" />
+<img width="1474" height="881" alt="image" src="https://github.com/user-attachments/assets/5aa761ac-0d10-4b79-9f51-6a406b4247c8" />
+<img width="993" height="1043" alt="image" src="https://github.com/user-attachments/assets/d0bd4b32-1126-4fdc-bda2-6b7616d54498" />
+
+PS I hate freecad 😄
+
+8 hours
+
+### 7-17-25: Magnets
+I selected the magnet. Specifically, I spent a lot of time trying to calculate the force that a potential magnet combo would produce and comparing that to what I measured my exisitng ones taking. 
+
+Measuring the existing ones proved difficult but I get about 10N at tip. The chosen magnet pair is about the same at 13 or so, which is fine considering the application. Like always, there are always tweaks to bring down this value in case it is truly too much.
+
+I won't post a photo for this one. It's a circular metallic disk bro.
+
+Alos, in case you wondered why magnets if you aren't using hall sensor: it's to provide that click feedback.
+
+I imported all the cad files into an assembly but have yet to actually put them together
+
+2 hours
+
+### 7-18-25: Holes
+Finalized rotary encoder holes, holes for shifter mounting, holes for PCB mounting.
+
+Positioned the things in the assembly, the shifter was completely impossible to move for some reason. I only did one ok. I picked my battles with freecad and this was not one of them.
+
+<img width="1552" height="873" alt="image" src="https://github.com/user-attachments/assets/0f4f29e3-0203-4e36-90ab-281c8041a1c4" />
+<img width="1564" height="906" alt="image" src="https://github.com/user-attachments/assets/1a044558-7000-4030-a385-d04d9c10a199" />
